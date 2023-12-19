@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Разработка десктнопных и веб-приложений</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}" />
+		<noscript><link rel="stylesheet" href="{{url_for('static', filename='css/noscript.css')}}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<span class="icon solid major fa-cloud"></span>
+					<h1>Привет, я <strong>Даниил</strong>, занимаюсь<br />
+					разработкой десктопных и веб-приложений.</h1>
+					<p> </p>
+					<ul class="actions special">
+						<li><a href="#one" class="button scrolly">Подробнее</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2>Разработка десктопных и веб-приложений</h2>
+							</header>
+							<p>Разработка десктопного программного обеспечения под операционные системы Windows, Linux и macOS. Также создаю сетевые приложения и клиент-серверные приложения. Пишу нативные и кроссплатформенные приложения.</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<ul class="major-icons">
+								<li><img src="{{url_for('static', filename='img/cpp.png')}}" alt="" width="140px"/></li>
+								<li><img src="{{url_for('static', filename='img/windows.png')}}" alt="" width="140px"/></li>
+								<li><img src="{{url_for('static', filename='img/Android.png')}}" alt="" width="140px"/></li>
+								<li><img src="{{url_for('static', filename='img/NET.png')}}" alt="" width="140px"/></li>
+								<li><img src="{{url_for('static', filename='img/ARM64.png')}}" alt="" width="140px"/></li>
+								<li><img src="{{url_for('static', filename='img/DB.png')}}" alt="" width="140px"/></li>
+							</ul>
+						</div>
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2>С какими технологиями работаю</h2>
+							</header>
+							<p>Языки программирования:C/C++ ▪ C# ▪ Python ▪ Java ▪ JavaScript</p>
+							<p>Операционные системы: Windows/Windows CE ▪ Linux ▪ Unix ▪ Android ▪ macOS ▪ iOS</p>
+							<p>Фреймворки и библиотеки: Qt ▪ .NET ▪ jQuery ▪ Microsoft Windows SDK ▪ Django ▪ Flask</p>
+							<p>Архитектуры: x86/x86-64 ▪ ARM</p>
+							<p>Базы данных: MySQL ▪ PostgreSQL ▪ Microsoft SQL Server ▪ Oracle ▪ MongoDB</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>Связаться по поводу заказа</h2>
+					</header>
+					<br>
+					<div class="row gtr-150">
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="{{url_for('static', filename='img/img/desktop.png')}}" alt="" /></span>
+							<h3>Десктопного приложение</h3>
+							<p>Связаться на счёт разработки десктопного приложения</p>
+							<ul class="actions special">
+								<li><a href="/support/{{'Разработка десктопного приложения'}}" class="button">Сделать заказ</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="{{url_for('static', filename='img/img/desktop.png')}}" alt="" /></span>
+							<h3>Веб-приложение</h3>
+							<p>Связаться на счёт разработки веб-приложения</p>
+							<ul class="actions special">
+								<li><a href="/support/{{'Разработка веб-приложения'}}" class="button">Сделать заказ</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="{{url_for('static', filename='img/img/desktop.png')}}" alt="" /></span>
+							<h3>Другие вопросы</h3>
+							<p>Узнать дополнительную информацию не указанную на сайте</p>
+							<ul class="actions special">
+								<li><a href="/support/{{'Другие вопросы'}}" class="button">Поддержка</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>Дополнительная информация</h2>
+					</header>
+					<p> </p>
+					<ul class="actions special">
+						<li><a href="{{ url_for('projects') }}" class="button wide primary">Наши проекты</a></li>
+						<li><a href="{{ url_for('contact') }}" class="button wide">Контактная информация</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li><a href="https://shikimori.one/xDezexus/list/anime?order=rate_score">&copy;Таныгин Д.В.</a></li><li>Сайт визитка для учебной практики</li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/jquery.scrolly.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/browser.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/breakpoints.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/util.js')}}"></script>
+			<script src="{{url_for('static', filename='js/main.js')}}"></script>
+
+	</body>
+</html>
